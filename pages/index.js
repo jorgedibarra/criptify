@@ -50,7 +50,7 @@ const Home = () => {
     <ThemeProvider theme={Theme}>
       <LoadingCom open={loading} />
       {!loading &&
-        (swReg && browserSupport ? <MainContainer /> : <LimitedContainer />)}
+        (swReg && browserSupport ? <MainContainer /> : <MainContainer />)}
     </ThemeProvider>
   );
 };
